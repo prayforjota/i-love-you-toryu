@@ -1,42 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanks</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+  <meta charset="UTF-8">
+  <title>JoTa Dev's Discord Profile</title>
+  <style>
+    body {
+      background-color: #313338;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
 
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #000;
-            margin: 0;
-            overflow: hidden;
-        }
+    .profile-card {
+      background-color: #2b2d31;
+      border-radius: 12px;
+      width: 400px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
 
-        h1 {
-            font-family: 'Dancing Script', cursive;
-            font-size: 5em;
-            color: #fff;
-            animation: pulse 1.5s infinite alternate ease-in-out;
-        }
+    .banner {
+      background-color: white;
+      height: 120px;
+    }
 
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-                opacity: 0.8;
-            }
-            100% {
-                transform: scale(1.1);
-                opacity: 1;
-            }
-        }
-    </style>
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      border: 6px solid #2b2d31;
+      margin-top: -48px;
+      margin-left: 20px;
+    }
+
+    .info {
+      padding: 20px;
+    }
+
+    .username {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .status {
+      color: #b5bac1;
+      margin: 5px 0 10px;
+    }
+
+    .about-me {
+      font-size: 14px;
+      color: #dbdee1;
+    }
+
+    .user-id {
+      font-size: 12px;
+      margin-top: 10px;
+      color: #72767d;
+    }
+  </style>
 </head>
 <body>
-    <h1>J</h1>
+  <div class="profile-card">
+    <div class="banner"></div>
+    <img class="avatar" src="https://i.imgur.com/yourRandomImage.png" alt="Avatar">
+    <div class="info">
+      <div class="username">JoTa Dev &lt;/&gt;</div>
+      <div class="status">lets try to get the same was at discord</div>
+      <div class="about-me">Just a random bio about JoTa. Enjoys coding, coffee, and chaos.</div>
+      <div class="user-id">User ID: 123456789012345678</div>
+    </div>
+  </div>
 </body>
 </html>
