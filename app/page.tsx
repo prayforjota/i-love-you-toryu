@@ -13,7 +13,7 @@ export default function Home() {
         <div className="mb-8 border-b border-gray-300 pb-4">
           <div className="flex items-center gap-4">
             <Image
-              src="https://i.imgur.com/aYt0QJz.jpeg"
+              src="https://i.imgur.com/VRfiVrY.jpeg"
               alt="Avatar"
               width={64}
               height={64}
